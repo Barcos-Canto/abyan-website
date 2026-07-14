@@ -14,6 +14,8 @@
     --color-abyan-blue-900: #094971;
     --color-abyan-blue-950: #062e4b; /* Dark Blue */
 
+    --color-abyan-white: #ffffff; 
+
     --font-sans: 'Inter', sans-serif;
 
     --text-h1: 3rem; /* 48px */
@@ -50,6 +52,11 @@
     --text-paragraph--line-height: 1.6;
     --text-paragraph--letter-spacing: 0em;
     --text-paragraph--font-weight: 400;
+}
+
+:root{
+    --ui-primary: var(--color-abyan-blue-500);
+    --ui-secondary: var(--color-abyan-white);
 }
 
 @layer base {
