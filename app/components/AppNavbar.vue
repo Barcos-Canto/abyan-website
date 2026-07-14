@@ -1,5 +1,5 @@
 <template>
     <div>
-        <SectionsTest />
+        <h1>NAVBAR --test</h1>
     </div>
 </template>

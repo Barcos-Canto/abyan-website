@@ -1,5 +1,5 @@
 <template>
     <div>
-        <SectionsTest />
+        <h1>FOOTER --test</h1>
     </div>
 </template>
