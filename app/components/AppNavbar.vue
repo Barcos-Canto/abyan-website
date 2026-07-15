@@ -25,7 +25,7 @@ const items = computed<NavigationMenuItem[]>(() => [
 
 <template>
      <UHeader 
-	 	class="bg-abyan-blue-500 px-16"
+	 	class="bg-abyan-blue-500 px-16 border-0 border-transparent"
 		:ui="{
 			header: 'bg-abyan-blue-500',
 			body: 'bg-abyan-blue-500'
