@@ -45,7 +45,13 @@ const items = computed<NavigationMenuItem[]>(() => [
 
         <!-- For Hamburger menu -->
         <template #body> 
-            <UNavigationMenu orientation="vertical" :items="items" /> 
+        	<UNavigationMenu 
+    			:items="items"
+				:ui="{
+					link: 'text-abyan-white hover:text-abyan-white'
+				}"
+				variant="pill"
+			/> 
         </template> 
 
     </UHeader>
