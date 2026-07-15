@@ -53,9 +53,7 @@ const items = [
                         <h1>Trusted By Known Brands</h1>
                     </div>
 
-                    <template>
-                        <uPageLogos :items="items" />
-                    </template>
+                    <UPageLogos :items="items" />
                     
                     <div>
                         <!-- ...and many more! join us button -->
