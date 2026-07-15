@@ -25,7 +25,7 @@ const items = computed<NavigationMenuItem[]>(() => [
 
 <template>
      <UHeader 
-	 	class="bg-abyan-blue-500 px-16 border-0 border-transparent"
+	 	class="bg-abyan-blue-500 px-6 md:px-16 border-0 border-transparent"
 		:ui="{
 			header: 'bg-abyan-blue-500',
 			body: 'bg-abyan-blue-500'
@@ -36,7 +36,7 @@ const items = computed<NavigationMenuItem[]>(() => [
             <div class="flex h-6 w-auto">
             	<img
 					src="/logos/abyan-logo-white-cropped.png"
-					class="w-auto h-auto bject-contain"
+					class="w-auto h-auto object-contain"
 					alt="Abyan Logo"
 			  	></img>
 				<span class="class text-abyan-white">ABYAN</span>
