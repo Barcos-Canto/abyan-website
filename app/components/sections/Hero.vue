@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section>
+        <section id="hero">
             <h2>Hero-Landing</h2>
         </section>
     </div>
