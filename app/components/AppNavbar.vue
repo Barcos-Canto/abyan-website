@@ -5,33 +5,51 @@ const route = useRoute()
 
 const items = computed<NavigationMenuItem[]>(() => [
   {
-    label: 'Trusted Partners'
+    label: 'Trusted Partners',
+	to: '#partners'
   },
   {
-    label: 'Services'
+    label: 'Services',
+	to: '#services'
   },
   {
-    label: 'About Us'
+    label: 'About Us',
+	to: '#about-us'
   },
   {
-    label: 'Contact'
+    label: 'Contact Us',
+	to: '#contact-us'
   }
 ])
 </script>
 
 <template>
-     <UHeader class="bg-abyan-blue-500 px-16">
+     <UHeader 
+	 	class="bg-abyan-blue-500 px-16"
+		:ui="{
+			header: 'bg-abyan-blue-500',
+			body: 'bg-abyan-blue-500'
+		}"
+		>
 
         <template #title>
-            <div class="h-6 w-auto text-abyan-white">ABYAN</div>
+            <div class="flex h-6 w-auto">
+            	<img
+					src="/logos/abyan-logo-white-cropped.png"
+					class="w-auto h-auto bject-contain"
+					alt="Abyan Logo"
+			  	></img>
+				<span class="class text-abyan-white">ABYAN</span>
+            </div>
         </template>
 
+        <!-- Actual Menu Items -->
         <UNavigationMenu 
     		:items="items"
 			:ui="{
-				link: 'text-abyan-white hover:text-abyan-white'
+				link: 'text-abyan-blue-100 hover:text-abyan-white hover:cursor-pointer'
 			}"
-			variant="pill"
+			variant="link"
 			/>
 
         <template #right>
@@ -43,14 +61,15 @@ const items = computed<NavigationMenuItem[]>(() => [
             />
         </template>
 
-        <!-- For Hamburger menu -->
-        <template #body> 
-        	<UNavigationMenu 
-    			:items="items"
+        <!-- For Hamburger Menu -->
+        <template #body>
+			<UNavigationMenu 
+				:items="items"
 				:ui="{
-					link: 'text-abyan-white hover:text-abyan-white'
+					link: 'text-abyan-white'
 				}"
-				variant="pill"
+				orientation="vertical"
+				variant="link"
 			/> 
         </template> 
 
