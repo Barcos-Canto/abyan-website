@@ -6,6 +6,5 @@
         <SectionsCompanyValues />
         <SectionsAboutUs />
         <SectionsContactUs />
-        <SectionsTest />
     </div>
 </template>
