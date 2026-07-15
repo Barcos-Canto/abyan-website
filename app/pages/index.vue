@@ -1,10 +1,12 @@
 <template>
     <div>
-        <SectionsHero />
-        <SectionsTrustedPartners />
-        <SectionsServices />
-        <SectionsCompanyValues />
-        <SectionsAboutUs />
-        <SectionsContactUs />
+        <UMain>
+            <SectionsHero />
+            <SectionsTrustedPartners />
+            <SectionsServices />
+            <SectionsCompanyValues />
+            <SectionsAboutUs />
+            <SectionsContactUs />
+        </UMain>
     </div>
 </template>
