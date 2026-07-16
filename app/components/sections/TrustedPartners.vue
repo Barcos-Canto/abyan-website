@@ -9,7 +9,7 @@
                     </div>
 
                     <!-- BRANDS -->
-                    <div class="mx-auto mt-10 grid max-w-xl items-center gap-x-8 gap-y-10 grid-cols-2 md:grid-cols-5 md:mx-0 md:max-w-none">
+                    <div class="rounded-b-lg shadow-base-300/20 shadow-lg mx-auto mt-10 grid max-w-xl items-center gap-x-8 gap-y-10 pb-8 grid-cols-2 md:grid-cols-5 md:mx-0 md:max-w-none">
                         <img width="158" height="48" src="/brands/dominos-pizza.webp" alt="Dominos Pizza Logo" class="max-h-12 w-full object-contain"/>
                         <img width="158" height="48" src="/brands/mcdo.webp" alt="Mcdo Logo" class=" max-h-12 w-full object-contain"/>
                         <img width="158" height="48" src="/brands/san-miguel.webp" alt="San Miguel Corporation Logo" class="max-h-12 w-full object-contain"/>
