@@ -1,5 +1,5 @@
 <template>
-    <div id="partners" class="w-full px-6 md:px-16 py-12 bg-abyan-white">
+    <div id="about-us" class="w-full px-6 md:px-16 py-12 bg-abyan-white">
         <UContainer>
             <section>
                 <div>
