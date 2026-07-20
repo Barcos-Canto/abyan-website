@@ -10,7 +10,11 @@
             description: 'text-abyan-white'
         }"
     >
-        <UPageGrid>
+        <UPageGrid
+        :ui="{
+            base: 'lg:grid-cols-2'
+        }"
+        >
             <UPageCard
                 title="Call us"
                 description="(02)8731-6384      (02)8255-5762"
