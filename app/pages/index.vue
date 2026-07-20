@@ -2,7 +2,7 @@
     <SectionsHero />
     <SectionsTrustedPartners />
     <SectionsServices />
-    <SectionsCompanyValues />
     <SectionsAboutUs />
+    <SectionsCompanyValues />
     <SectionsContactUs />
 </template>
