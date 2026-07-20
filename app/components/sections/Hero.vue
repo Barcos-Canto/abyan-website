@@ -1,28 +1,20 @@
 <template>
-    <div class="w-full px-6 md:px-16 py-12 bg-abyan-blue-500" >
-        <UContainer>
-            <section id="hero" class="flex flex-col md:flex-row items-center gap-16 mt-10 text-abyan-white">
-                <div class="flex flex-col gap-4 md:w-3/5">
-                    <h1>
-                        Building Relationships Between Labor And Capital
-                    </h1>
-                    <p>
-                        Uniting workforce and management for mutual growth and success. 
-                        From market beginnings to industry impact. Abyan bridges gaps 
-                        between workforce and management, building strong foundations for 
-                        career growth and mutual success.
-                    </p>
-                </div>
-    
-                <!-- RIGHT -->
-                <div class="w-full md:w-2/5">
-                    <img
-                        src="/logos/abyan-logo-white-cropped.png"
-                        class="w-full h-auto object-contain"
-                        alt="Abyan Logo"
-                    ></img>
-                </div>
-            </section>
-        </UContainer>
-    </div>
+    <UPageHero
+        id="hero"
+        title="Building Relationships Between Labor And Capital"
+        description="Uniting workforce and management for mutual growth and success. From market beginnings to industry impact. Abyan bridges gaps between workforce and management, building strong foundations for career growth and mutual success."
+        orientation="horizontal"
+        :ui="{
+            root: 'bg-abyan-blue-500',
+            container: 'py-12 sm:py-12 lg:py-12',
+            title: 'text-abyan-white',
+            description: 'text-abyan-white'
+        }"
+    >
+        <img
+            src="/logos/abyan-logo-white-cropped.png"
+            class="w-full h-auto object-contain"
+            alt="Abyan Logo"
+        />
+    </UPageHero>
 </template>

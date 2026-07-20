@@ -55,7 +55,9 @@ const items = computed<NavigationMenuItem[]>(() => [
         <template #right>
             <UButton
                 label="Tracking"
-                class="rounded-full border border-abyan-white text-abyan-white hover:bg-abyan-white hover:text-abyan-blue-500"
+				icon="i-lucide-package-search"
+				size="lg"
+                class="rounded-full border font-bold border-abyan-white text-abyan-white hover:bg-abyan-white hover:text-abyan-blue-500"
                 to="https://delivery.abyan.ph/track"
                 target="_blank"
             />
