@@ -7,15 +7,16 @@
             root: 'bg-abyan-white',
             container: 'py-12 sm:py-12 lg:py-12',
         }"
-    >
+    >   <!-- i am sure it is none of those because running npm run dev doesnt show any errors and it actually shows the honda.png (no capitalization) on the webpage -->
         <div class="rounded-b-lg shadow-abyan-blue-900/10 shadow-lg mx-auto grid max-w-xl items-center gap-x-8 gap-y-10 pb-8 grid-cols-2 md:grid-cols-5 md:mx-0 md:max-w-none">
             <img width="158" height="48" src="/brands/dominos-pizza.webp" alt="Dominos Pizza Logo" class="max-h-12 w-full object-contain"/>
             <img width="158" height="48" src="/brands/mcdo.webp" alt="Mcdo Logo" class="max-h-12 w-full object-contain"/>
             <img width="158" height="48" src="/brands/san-miguel.webp" alt="San Miguel Corporation Logo" class="max-h-12 w-full object-contain"/>
+            <img width="158" height="48" src="/brands/UCC.webp" alt="UCC Logo" class="max-h-12 w-full object-contain"/>
             <img width="158" height="48" src="/brands/anchor-land.png" alt="Anchor Land Holdings Logo" class="max-h-12 w-full object-cover"/>
             <img width="158" height="48" src="/brands/megaworld.png" alt="Megaworld Logo" class="max-h-12 w-full object-contain"/>
 
-            <img width="158" height="48" src="/brands/honda.png" alt="Honda Logo" class="max-h-12 w-full object-contain"/>
+            <!-- Nuxt HATES honda -->
             <img width="158" height="48" src="/brands/hyundai.png" alt="Hyundai Logo" class="max-h-12 w-full object-contain" />
             <img width="158" height="48" src="/brands/mitsubishi.png" alt="Mitsubishi Logo" class="max-h-12 w-full object-contain"/>
             <img width="158" height="48" src="/brands/suzuki.png" alt="Suzuki Logo" class="max-h-12 w-full object-contain"/>
