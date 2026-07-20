@@ -15,7 +15,7 @@
             <img width="158" height="48" src="/brands/anchor-land.png" alt="Anchor Land Holdings Logo" class="max-h-12 w-full object-cover"/>
             <img width="158" height="48" src="/brands/megaworld.png" alt="Megaworld Logo" class="max-h-12 w-full object-contain"/>
 
-            <img width="158" height="48" src="/brands/honda.png" alt="Honda Logo" class="max-h-12 w-full object-contain" />
+            <img width="158" height="48" src="/brands/honda.png" alt="Honda Logo" class="max-h-12 w-full object-contain"/>
             <img width="158" height="48" src="/brands/hyundai.png" alt="Hyundai Logo" class="max-h-12 w-full object-contain" />
             <img width="158" height="48" src="/brands/mitsubishi.png" alt="Mitsubishi Logo" class="max-h-12 w-full object-contain"/>
             <img width="158" height="48" src="/brands/suzuki.png" alt="Suzuki Logo" class="max-h-12 w-full object-contain"/>
