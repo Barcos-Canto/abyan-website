@@ -16,8 +16,9 @@
         }"
         >
             <UPageCard
+                class="whitespace-pre-wrap"
                 title="Call us"
-                description="(02)8731-6384      (02)8255-5762"
+                description="(02)8731-6384                      (02)8255-5762"
                 :ui="{
                     root: 'bg-abyan-blue-100',
                     title: 'text-abyan-blue-500',
