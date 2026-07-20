@@ -28,5 +28,8 @@ const features = ref<PageFeatureProps[]>([
         id="#company-values"
         title="Company Values"
         :features="features"
+        :ui="{
+            container: 'py-12 sm:py-12 lg:py-12',
+        }"
     />
 </template>

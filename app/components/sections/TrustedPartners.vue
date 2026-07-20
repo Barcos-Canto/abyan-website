@@ -4,7 +4,8 @@
         headline="Fostering partnerships since 2015"
         title="Trusted By Known Brands"
         :ui="{
-            root: 'bg-abyan-white'
+            root: 'bg-abyan-white',
+            container: 'py-12 sm:py-12 lg:py-12',
         }"
     >
         <div class="rounded-b-lg shadow-abyan-blue-900/10 shadow-lg mx-auto grid max-w-xl items-center gap-x-8 gap-y-10 pb-8 grid-cols-2 md:grid-cols-5 md:mx-0 md:max-w-none">

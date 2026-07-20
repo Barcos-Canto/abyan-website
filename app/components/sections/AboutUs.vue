@@ -44,7 +44,8 @@ const features = ref<PageFeatureProps[]>([
         orientation="horizontal"
         :features="features"
         :ui="{
-            root: 'bg-abyan-white'
+            root: 'bg-abyan-white',
+            container: 'py-12 sm:py-12 lg:py-12',
         }"
     >
         <UMarquee class="mt-2" :ui="{ root: '[--gap:--spacing(4)]', content: 'w-auto py-1' }">

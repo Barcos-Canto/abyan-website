@@ -47,7 +47,8 @@ const features = ref<PageFeatureProps[]>([
         :features="features"
         :ui="{
             title: 'text-abyan-white',
-            description: 'text-abyan-blue-200'
+            description: 'text-abyan-blue-200',
+            container: 'py-12 sm:py-12 lg:py-12',
         }"
     >
 

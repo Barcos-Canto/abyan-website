@@ -7,7 +7,8 @@
         :ui="{
             root: 'bg-abyan-blue-500',
             title: 'text-abyan-white',
-            description: 'text-abyan-white'
+            description: 'text-abyan-white',
+            container: 'py-12 sm:py-12 lg:py-12',
         }"
     >
         <UPageGrid
