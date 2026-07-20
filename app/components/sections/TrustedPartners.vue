@@ -21,14 +21,9 @@
             <img width="158" height="48" src="/brands/toyota.png" alt="Toyota Logo" class="max-h-12 w-full object-contain"/>
         </div>
 
-        <div class="flex justify-center">
-            <a href="#contact-us" class="group flex items-center gap-1 rounded-full px-4 py-2 text-lg text-center ring-1 ring-abyan-blue-200 bg-abyan-blue-100 transition-colors duration-300 hover:bg-abyan-blue-500">
-                <span class="text-abyan-blue-950 transition-colors duration-300 group-hover:text-white">
-                    ... And Many More! Interested Working Together?
-                </span>
-                <span class="font-bold text-abyan-blue-500 transition-colors duration-300 group-hover:text-abyan-blue-100">
-                    Get In Touch! 
-                </span>
+        <div class="flex justify-center mt-8">
+            <a href="#contact-us" class="rounded-full px-4 py-1.5 text-xs text-center ring-1 ring-abyan-blue-200 bg-abyan-blue-50">
+                ... And Many More. Interested Working Together?<span class="font-bold text-abyan-blue-500" > Reach Out</span>
             </a>
         </div>
 
