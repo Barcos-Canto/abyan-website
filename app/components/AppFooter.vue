@@ -2,9 +2,9 @@
 <template>
   	<UFooter class="bg-abyan-blue-500 px-16">
     	<template #left>
-			<div class="flex h-6 w-auto gap-2">
+			<div class="flex h-6 w-auto gap-0">
             	<img
-					src="/logos/abyan-logo-white-cropped.png"
+					src="/logos/abyan-logo-white-smallest.webp"
 					class="w-auto h-auto object-contain"
 					alt="Abyan Logo"
 			  	></img>
