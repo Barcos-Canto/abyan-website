@@ -48,12 +48,5 @@ const features = ref<PageFeatureProps[]>([
             container: 'py-12 sm:py-12 lg:py-12',
         }"
     >
-        <UMarquee class="mt-2" :ui="{ root: '[--gap:--spacing(4)]', content: 'w-auto py-1' }">
-            <img src="/images/man-digging-soil.jpg" class="w-50 aspect-5/7 object-cover rounded-3xl">
-            <img src="/images/man-operating-farm-equipment.jpg" class="w-50 aspect-5/7 object-cover rounded-3xl">
-            <img src="/images/man-spraying-plants.jpg" class="w-50 aspect-5/7 object-cover rounded-3xl">
-            <img src="/images/men-group-photo-v1.jpg" class="w-50 aspect-5/7 object-cover rounded-3xl">
-            <img src="/images/mwn-sorting-fruit.jpg" class="w-50 aspect-5/7 object-cover rounded-3xl">
-        </UMarquee>
     </UPageSection>
 </template>
