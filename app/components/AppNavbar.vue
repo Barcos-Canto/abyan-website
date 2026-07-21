@@ -35,7 +35,7 @@ const items = computed<NavigationMenuItem[]>(() => [
         <template #title>
             <div class="flex h-6 w-auto">
             	<img
-					src="/logos/abyan-logo-white-cropped.png"
+					src="/logos/abyan-logo-white-smallest.webp"
 					class="w-auto h-auto object-contain"
 					alt="Abyan Logo"
 			  	></img>
