@@ -38,7 +38,7 @@ const features = ref<PageFeatureProps[]>([
 <template>
     <UPageSection
         id="services"
-        class="bg-abyan-blue-500"
+        class="bg-abyan-blue-950"
         title="Comprehensive Workplace Solutions"
         headline="What We Deliver"
         description="Our services are rooted in fostering strong relationships, promoting career growth, and ensuring that both job seekers and businesses thrive in a collaborative and conflict-free environment."
@@ -54,7 +54,7 @@ const features = ref<PageFeatureProps[]>([
     >
 		<UPageGrid class="gap-2">
 			<UPageCard 
-				class="bg-abyan-blue-500 lg:col-span-2"
+				class="bg-abyan-blue-950 lg:col-span-2"
 				:ui="{
 					root: 'ring-0',
 					container: 'p-0 sm:p-0'
@@ -64,7 +64,7 @@ const features = ref<PageFeatureProps[]>([
 			</UPageCard>
 
 			<UPageCard 
-				class="bg-abyan-blue-500"
+				class="bg-abyan-blue-950"
 				:ui="{
 					root: 'ring-0',
 					container: 'p-0 sm:p-0'
@@ -74,7 +74,7 @@ const features = ref<PageFeatureProps[]>([
 			</UPageCard>
 
 			<UPageCard 
-				class="bg-abyan-blue-500"
+				class="bg-abyan-blue-950"
 				:ui="{
 					root: 'ring-0',
 					container: 'p-0 sm:p-0'
@@ -84,7 +84,7 @@ const features = ref<PageFeatureProps[]>([
 			</UPageCard>
 
 			<UPageCard 
-				class="bg-abyan-blue-500 lg:col-span-2"
+				class="bg-abyan-blue-950 lg:col-span-2"
 				:ui="{
 					root: 'ring-0',
 					container: 'p-0 sm:p-0'

@@ -1,6 +1,6 @@
 
 <template>
-  	<UFooter class="bg-abyan-blue-500 px-16">
+  	<UFooter class="bg-abyan-blue-950 px-16">
     	<template #left>
 			<div class="flex h-6 w-auto gap-0">
             	<img

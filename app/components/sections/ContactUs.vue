@@ -5,9 +5,9 @@
         description="Bridging Relationships Between Labor and Capital. Reach out today to discuss a business partnership, or submit your resume to join our talent pool. You can contact our team directly or visit our main office."
         orientation="horizontal"
         :ui="{
-            root: 'bg-abyan-blue-500',
+            root: 'bg-abyan-blue-950',
             title: 'text-abyan-white',
-            description: 'text-abyan-white',
+            description: 'text-abyan-blue-200',
             container: 'py-12 sm:py-12 lg:py-12',
         }"
     >

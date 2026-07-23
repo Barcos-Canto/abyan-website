@@ -25,10 +25,10 @@ const items = computed<NavigationMenuItem[]>(() => [
 
 <template>
      <UHeader 
-	 	class="bg-abyan-blue-500 px-6 md:px-16 border-0 border-transparent"
+	 	class="bg-abyan-blue-950 px-6 md:px-16 border-0 border-transparent"
 		:ui="{
-			header: 'bg-abyan-blue-500',
-			body: 'bg-abyan-blue-500'
+			header: 'bg-abyan-blue-950',
+			body: 'bg-abyan-blue-950'
 		}"
 		>
 
@@ -47,7 +47,7 @@ const items = computed<NavigationMenuItem[]>(() => [
         <UNavigationMenu 
     		:items="items"
 			:ui="{
-				link: 'text-abyan-blue-100 hover:text-abyan-white hover:cursor-pointer'
+				link: 'text-abyan-blue-200 hover:text-abyan-white hover:cursor-pointer'
 			}"
 			variant="link"
 			/>
@@ -57,7 +57,7 @@ const items = computed<NavigationMenuItem[]>(() => [
                 label="Tracking"
 				icon="i-lucide-package-search"
 				size="lg"
-                class="rounded-full border font-bold border-abyan-white text-abyan-white hover:bg-abyan-white hover:text-abyan-blue-500"
+                class="rounded-full border font-bold bg-abyan-blue-950 border-abyan-blue-200 text-abyan-blue-200 hover:bg-abyan-blue-200 hover:text-abyan-blue-950"
                 to="https://delivery.abyan.ph/track"
                 target="_blank"
             />
