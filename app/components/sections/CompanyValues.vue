@@ -23,10 +23,18 @@ const features = ref<PageFeatureProps[]>([
 <template>
     <UPageSection
         id="#company-values"
-        title="Company Values"
+        orientation="horizontal"
+        reverse
         :features="features"
         :ui="{
-            container: 'py-12 sm:py-12 lg:py-12',
+            container: 'lg:items-start pt-6 sm:pt-6 lg:pt-6 pb-12 sm:pb-12 lg:pb-12'
         }"
-    />
+    >
+		<img 
+			src="/images/award-group-photo.webp"
+			class="w-full h-100 object-contain rounded-xl"
+			alt="abyan-executives-awarding-photo"
+			loading="lazy"
+		/>
+	</UPageSection>
 </template>
