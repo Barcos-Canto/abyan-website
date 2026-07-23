@@ -26,10 +26,12 @@
         </div>
 
         <div class="flex justify-center animate-bounce">
-            <a href="#contact-us" class="rounded-full px-4 py-2 mt-8 text-xs text-center ring-1 ring-abyan-blue-200 bg-abyan-blue-50">
-                ... And Many More. Interested Working Together?
-                <span class="font-bold text-abyan-blue-500" > 
-                    Reach Out
+            <a href="#contact-us" class="rounded-full group px-4 py-2 mt-8 text-xs text-center ring-1 ring-abyan-blue-200 bg-abyan-blue-950 hover:bg-abyan-blue-200">
+                <span class="text-abyan-blue-200 group-hover:text-abyan-blue-900">
+                    Interested Working Together?
+                </span>
+                <span class="font-bold text-abyan-white group-hover:text-abyan-blue-950" > 
+                    Reach Out!
                 </span>
             </a>
         </div>
