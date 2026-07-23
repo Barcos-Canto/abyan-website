@@ -48,6 +48,7 @@ const features = ref<PageFeatureProps[]>([
         :ui="{
             title: 'text-abyan-white',
             description: 'text-abyan-blue-200',
+            headline: 'text-abyan-blue-200',
             container: 'py-12 sm:py-12 lg:py-12',
         }"
     >
@@ -69,7 +70,7 @@ const features = ref<PageFeatureProps[]>([
 					container: 'p-0 sm:p-0'
 				}"
 			>
-				<img src="/images/adults-and-children.webp" class="w-full h-64 rounded-xl object-cover">
+				<img src="/images/man-operating-farm-equipment.webp" class="w-full h-64 rounded-xl object-cover">
 			</UPageCard>
 
 			<UPageCard 
