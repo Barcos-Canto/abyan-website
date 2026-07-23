@@ -19,6 +19,7 @@
             <UPageCard
                 class="whitespace-pre-wrap"
                 title="Call us"
+                icon="i-lucide-phone"
                 :ui="{
                     root: 'bg-abyan-blue-100',
                     title: 'text-abyan-blue-500',
@@ -32,18 +33,23 @@
             </UPageCard>
 
             <UPageCard
+                class="whitespace-pre-wrap"
                 title="Send us your resume"
                 description="yourfuturestartshere2025@gmail.com"
+                icon="i-lucide-mail"
                 :ui="{
                     root: 'bg-abyan-blue-100',
                     title: 'text-abyan-blue-500',
-                    description: 'text-xs font-bold text-abyan-blue-800'
+                    description: 'text-xs font-bold text-abyan-blue-800',
                 }"
             />
 
             <UPageCard
                 title="Visit our main office"
                 description="3rd Floor, Unit 18, Legazpi Tower, 2600 Roxas Blvd, Malate, Manila, 1004 Metro Manila."
+                icon="i-lucide-map-pin"
+                to="https://maps.app.goo.gl/zH81CyAVD7XJPHVf7"
+                target="_blank"
                 :ui="{
                     root: 'bg-abyan-blue-100',
                     title: 'text-abyan-blue-500',
@@ -52,34 +58,19 @@
             />
 
             <UPageCard
-                title="Iloilo office"
-                description="#51 Valeria Extension Street, Brgy. Nonoy Iloilo City."
+                title="Office hours"
+                icon="i-lucide-clock"
                 :ui="{
                     root: 'bg-abyan-blue-100',
                     title: 'text-abyan-blue-500',
                     description: 'text-xs font-bold text-abyan-blue-800'
                 }"
-            />
-
-            <UPageCard
-                title="Tacloban office"
-                description="Door 5 Lot 2 Block 1 Lolita Homes Subdivision, Brgy. Guindapunan, Palo, Leyte."
-                :ui="{
-                    root: 'bg-abyan-blue-100',
-                    title: 'text-abyan-blue-500',
-                    description: 'text-xs font-bold text-abyan-blue-800'
-                }"
-            />
-            
-            <UPageCard
-                title="Davao office"
-                description="Door 6, Plaza De Tavera Bldg. Camus Ext., Davao City."
-                :ui="{
-                    root: 'bg-abyan-blue-100',
-                    title: 'text-abyan-blue-500',
-                    description: 'text-xs font-bold text-abyan-blue-800'
-                }"
-            />
+            >
+                <template #description>
+                    Monday - Friday <br>
+                    8:00AM - 5:00PM
+                </template>
+            </UPageCard>
         </UPageGrid>
     </UPageSection>
 </template>
