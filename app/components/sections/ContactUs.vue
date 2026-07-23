@@ -8,7 +8,7 @@
             root: 'bg-abyan-blue-950',
             title: 'text-abyan-white',
             description: 'text-abyan-blue-200',
-            container: 'py-12 sm:py-12 lg:py-12',
+            container: 'sm:items-start lg:items-start py-12 sm:py-12 lg:py-12',
         }"
     >
         <UPageGrid
@@ -21,9 +21,10 @@
                 title="Call us"
                 icon="i-lucide-phone"
                 :ui="{
-                    root: 'bg-abyan-blue-100',
-                    title: 'text-abyan-blue-500',
-                    description: 'text-xs font-bold text-abyan-blue-800'
+                    root: 'bg-abyan-blue-50',
+                    title: 'text-abyan-blue-900',
+                    description: 'text-xs font-bold text-abyan-blue-950',
+                    leadingIcon:'text-abyan-blue-950'
                 }"
             >
                 <template #description>
@@ -38,9 +39,10 @@
                 description="yourfuturestartshere2025@gmail.com"
                 icon="i-lucide-mail"
                 :ui="{
-                    root: 'bg-abyan-blue-100',
-                    title: 'text-abyan-blue-500',
-                    description: 'text-xs font-bold text-abyan-blue-800',
+                    root: 'bg-abyan-blue-50',
+                    title: 'text-abyan-blue-900',
+                    description: 'text-xs font-bold text-abyan-blue-950',
+                    leadingIcon:'text-abyan-blue-950'
                 }"
             />
 
@@ -48,12 +50,12 @@
                 title="Visit our main office"
                 description="3rd Floor, Unit 18, Legazpi Tower, 2600 Roxas Blvd, Malate, Manila, 1004 Metro Manila."
                 icon="i-lucide-map-pin"
-                to="https://maps.app.goo.gl/zH81CyAVD7XJPHVf7"
                 target="_blank"
                 :ui="{
-                    root: 'bg-abyan-blue-100',
-                    title: 'text-abyan-blue-500',
-                    description: 'text-xs font-bold text-abyan-blue-800'
+                    root: 'bg-abyan-blue-50',
+                    title: 'text-abyan-blue-900',
+                    description: 'text-xs font-bold text-abyan-blue-950',
+                    leadingIcon:'text-abyan-blue-950'
                 }"
             />
 
@@ -61,9 +63,10 @@
                 title="Office hours"
                 icon="i-lucide-clock"
                 :ui="{
-                    root: 'bg-abyan-blue-100',
-                    title: 'text-abyan-blue-500',
-                    description: 'text-xs font-bold text-abyan-blue-800'
+                    root: 'bg-abyan-blue-50',
+                    title: 'text-abyan-blue-900',
+                    description: 'text-xs font-bold text-abyan-blue-950',
+                    leadingIcon:'text-abyan-blue-950'
                 }"
             >
                 <template #description>
