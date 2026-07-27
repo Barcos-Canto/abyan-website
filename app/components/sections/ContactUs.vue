@@ -24,9 +24,9 @@
                 icon="i-lucide-phone"
                 :ui="{
                     root: 'bg-abyan-blue-50',
-                    title: 'text-abyan-blue-900',
-                    description: 'text-xs font-bold text-abyan-blue-950',
-                    leadingIcon:'text-abyan-blue-950'
+                    title: 'text-abyan-blue-950',
+                    description: 'text-xs font-bold text-abyan-muted',
+                    leadingIcon:'text-abyan-blue-600'
                 }"
             >
                 <template #description>
@@ -42,9 +42,9 @@
                 target="_blank"
                 :ui="{
                     root: 'bg-abyan-blue-50',
-                    title: 'text-abyan-blue-900',
-                    description: 'text-xs font-bold text-abyan-blue-950',
-                    leadingIcon:'text-abyan-blue-950'
+                    title: 'text-abyan-blue-950',
+                    description: 'text-xs font-bold text-abyan-muted',
+                    leadingIcon:'text-abyan-blue-600'
                 }"
             />
         </UPageGrid>
