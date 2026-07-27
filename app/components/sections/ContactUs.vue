@@ -1,24 +1,9 @@
-<script setup lang="ts">
-import type { ButtonProps } from '@nuxt/ui'
-
-const links = ref<ButtonProps[]>([
-  {
-    label: 'Want to join our talent pool? Send us your resume!',
-    icon: 'i-lucide-mail',
-    ui: {
-        base:'rounded-full border font-bold bg-abyan-blue-950 border-abyan-blue-200 text-abyan-blue-200 hover:bg-abyan-blue-200 hover:text-abyan-blue-950 cursor:pointer'
-    }
-  }
-])
-</script>
-
 <template>
     <UPageSection
         id="contact-us"
         title="Get In Touch"
         description="Bridging Relationships Between Labor and Capital. Reach out today to discuss a business partnership, or submit your resume to join our talent pool. You can contact our team directly or visit our main office."
         orientation="horizontal"
-        :links="links"
         :ui="{
             root: 'bg-abyan-blue-950',
             title: 'text-abyan-white',
