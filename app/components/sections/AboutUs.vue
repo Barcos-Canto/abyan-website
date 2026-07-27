@@ -6,48 +6,48 @@ const features = ref<PageFeatureProps[]>([
     title: 'Integrity',
     icon: 'i-lucide-scale',
     ui: {
-            title: 'text-abyan-blue-950',
-            leadingIcon: 'text-abyan-blue-800'     
+            title: 'text-abyan-blue-900',
+            leadingIcon: 'text-abyan-blue-600'     
     }
   },
   {
     title: 'Loyalty',
     icon: 'i-lucide-handshake',
     ui: {
-            title: 'text-abyan-blue-950',
-            leadingIcon: 'text-abyan-blue-800'     
+            title: 'text-abyan-blue-900',
+            leadingIcon: 'text-abyan-blue-600'     
     }
   },
   {
     title: 'Professionalism',
     icon: 'i-lucide-briefcase-business',
     ui: {
-            title: 'text-abyan-blue-950',
-            leadingIcon: 'text-abyan-blue-800'     
+            title: 'text-abyan-blue-900',
+            leadingIcon: 'text-abyan-blue-600'     
     }
   },
   {
     title: 'Teamwork',
     icon: 'i-lucide-puzzle',
     ui: {
-            title: 'text-abyan-blue-950',
-            leadingIcon: 'text-abyan-blue-800'     
+            title: 'text-abyan-blue-900',
+            leadingIcon: 'text-abyan-blue-600'     
     }
   },
   {
     title: 'Concern for Others',
     icon: 'i-lucide-hand-heart',
     ui: {
-            title: 'text-abyan-blue-950',
-            leadingIcon: 'text-abyan-blue-800'     
+            title: 'text-abyan-blue-900',
+            leadingIcon: 'text-abyan-blue-600'     
     }
   },
   {
     title: 'Disciplined and Responsible',
     icon: 'i-lucide-anchor',
     ui: {
-            title: 'text-abyan-blue-950',
-            leadingIcon: 'text-abyan-blue-800'     
+            title: 'text-abyan-blue-900',
+            leadingIcon: 'text-abyan-blue-600'     
     }
   },
 ])
@@ -68,7 +68,7 @@ const features = ref<PageFeatureProps[]>([
             root: 'bg-abyan-white',
             container: 'py-12 sm:py-12 lg:py-12 pb-6 sm:pb-6 lg:pb-6',
 			title: 'text-abyan-blue-950',
-			description: 'text-abyan-blue-900',
+			description: 'text-abyan-muted',
 			headline: 'text-abyan-blue-900'
         }"
     >
