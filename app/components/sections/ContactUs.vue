@@ -1,9 +1,24 @@
+<script setup lang="ts">
+import type { ButtonProps } from '@nuxt/ui'
+
+const links = ref<ButtonProps[]>([
+  {
+    label: 'Want to join our talent pool? Send us your resume!',
+    icon: 'i-lucide-mail',
+    ui: {
+        base:'rounded-full border font-bold bg-abyan-blue-950 border-abyan-blue-200 text-abyan-blue-200 hover:bg-abyan-blue-200 hover:text-abyan-blue-950 cursor:pointer'
+    }
+  }
+])
+</script>
+
 <template>
     <UPageSection
         id="contact-us"
         title="Get In Touch"
         description="Bridging Relationships Between Labor and Capital. Reach out today to discuss a business partnership, or submit your resume to join our talent pool. You can contact our team directly or visit our main office."
         orientation="horizontal"
+        :links="links"
         :ui="{
             root: 'bg-abyan-blue-950',
             title: 'text-abyan-white',
@@ -34,19 +49,6 @@
             </UPageCard>
 
             <UPageCard
-                class="whitespace-pre-wrap"
-                title="Send us your resume"
-                description="yourfuturestartshere2025@gmail.com"
-                icon="i-lucide-mail"
-                :ui="{
-                    root: 'bg-abyan-blue-50',
-                    title: 'text-abyan-blue-900',
-                    description: 'text-xs font-bold text-abyan-blue-950',
-                    leadingIcon:'text-abyan-blue-950'
-                }"
-            />
-
-            <UPageCard
                 title="Visit our main office"
                 description="3rd Floor, Unit 18, Legazpi Tower, 2600 Roxas Blvd, Malate, Manila, 1004 Metro Manila."
                 icon="i-lucide-map-pin"
@@ -58,22 +60,6 @@
                     leadingIcon:'text-abyan-blue-950'
                 }"
             />
-
-            <UPageCard
-                title="Office hours"
-                icon="i-lucide-clock"
-                :ui="{
-                    root: 'bg-abyan-blue-50',
-                    title: 'text-abyan-blue-900',
-                    description: 'text-xs font-bold text-abyan-blue-950',
-                    leadingIcon:'text-abyan-blue-950'
-                }"
-            >
-                <template #description>
-                    Monday - Friday <br>
-                    8:00AM - 5:00PM
-                </template>
-            </UPageCard>
         </UPageGrid>
     </UPageSection>
 </template>
