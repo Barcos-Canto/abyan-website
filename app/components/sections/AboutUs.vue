@@ -66,7 +66,7 @@ const features = ref<PageFeatureProps[]>([
         :features="features"
         :ui="{
             root: 'bg-abyan-white',
-            container: 'py-12 sm:py-12 lg:py-12',
+            container: 'py-12 sm:py-12 lg:py-12 pb-6 sm:pb-6 lg:pb-6',
 			title: 'text-abyan-blue-950',
 			description: 'text-abyan-blue-900',
 			headline: 'text-abyan-blue-900'
