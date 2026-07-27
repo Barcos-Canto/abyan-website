@@ -50,10 +50,10 @@ const items = ref<AccordionItem[]>([
         <p class="mb-2 text-abyan-blue-50">Yes! We have offices in the following locations:</p>
         <ul class="list-disc list-inside space-y-1 text-abyan-blue-50">
             <li>
-                Location 1
+                <span class="font-bold">ILOILO OFFICE</span> #51 Valeria Extension Street, Brgy. Nonoy Iloilo CIty
             </li>
             <li>
-                Location 2
+                <span class="font-bold">TACLOBAN OFFICE</span> Door 5 Lot 2 Block 1 Lolita Homes Subdivision, Brgy. Guindapunan, Palo, Leyte
             </li>
         </ul>
         <p class="mt-2 text-abyan-blue-50">Our offices are open Monday–Friday, 8am–5pm.</p>
