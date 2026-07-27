@@ -29,7 +29,7 @@ const items = ref<AccordionItem[]>([
     title="FAQs"
     :ui="{
         root: 'bg-abyan-blue-950',
-        container: 'gap-2 sm:gap-2 py-12 sm:py-12 lg:py-12',
+        container: 'gap-2 sm:gap-2 py-12 sm:py-12 lg:py-12 pt-6 sm:pt-6 lg:pt-6',
         title: 'flex justify-start mb-4 text-abyan-white',
     }"
     >
