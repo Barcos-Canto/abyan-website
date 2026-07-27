@@ -5,4 +5,5 @@
     <SectionsAboutUs />
     <SectionsCompanyValues />
     <SectionsContactUs />
+    <SectionsFAQs />
 </template>
