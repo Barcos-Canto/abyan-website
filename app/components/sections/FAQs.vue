@@ -7,6 +7,7 @@ const items = ref<AccordionItem[]>([
     slot: 'apply',
     ui: {
         label: 'text-abyan-white',
+        trigger: 'cursor-pointer',
         trailingIcon: 'text-abyan-white'
     }
   },
@@ -15,6 +16,7 @@ const items = ref<AccordionItem[]>([
     slot: 'offices',
     ui: {
         label: 'text-abyan-white',
+        trigger: 'cursor-pointer',
         trailingIcon: 'text-abyan-white'
     }
   }
