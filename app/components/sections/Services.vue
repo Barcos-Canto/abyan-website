@@ -38,7 +38,7 @@ const features = ref<PageFeatureProps[]>([
         class="bg-abyan-blue-950"
         title="Comprehensive Workplace Solutions"
         headline="What We Deliver"
-        description="Our ssservices are rooted in fostering strong relationships, promoting career growth, and ensuring that both job seekers and businesses thrive in a collaborative and conflict-free environment."
+        description="Our services are rooted in fostering strong relationships, promoting career growth, and ensuring that both job seekers and businesses thrive in a collaborative and conflict-free environment."
         orientation="horizontal"
         reverse
         :features="features"
