@@ -73,9 +73,9 @@ const features = ref<PageFeatureProps[]>([
         }"
     >
 		<img
-			src="/images/executives-group-photo-v2.webp"
-			class="w-full h-auto object-contain rounded-xl"
-			alt="abyan-executives-group-photo"
+			src="/images/award-group-photo.webp"
+			class="w-full aspect-square object-cover rounded-xl"
+			alt="abyan-executives-awarding-photo"
 			loading="lazy"
 		/>
     </UPageSection>
