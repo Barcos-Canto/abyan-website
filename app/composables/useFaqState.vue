@@ -1,0 +1,3 @@
+<script>
+    export const useFaqOpenItem = () => useState<string>('faq-open-item', () => '')
+</script>>
