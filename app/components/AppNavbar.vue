@@ -28,7 +28,8 @@ const items = computed<NavigationMenuItem[]>(() => [
 	 	class="bg-abyan-blue-950 px-6 md:px-16 border-0 border-transparent"
 		:ui="{
 			header: 'bg-abyan-blue-950',
-			body: 'bg-abyan-blue-950'
+			body: 'bg-abyan-blue-950',
+			toggle: 'text-abyan-white'
 		}"
 		>
 
@@ -57,7 +58,7 @@ const items = computed<NavigationMenuItem[]>(() => [
                 label="Tracking"
 				icon="i-lucide-package-search"
 				size="lg"
-                class="rounded-full border font-bold bg-abyan-blue-950 border-abyan-blue-200 text-abyan-blue-200 hover:bg-abyan-blue-200 hover:text-abyan-blue-950"
+                class="rounded-full border font-bold bg-abyan-blue-950 border-abyan-blue-50 text-abyan-blue-50 hover:bg-abyan-blue-50 hover:text-abyan-blue-950"
                 to="https://delivery.abyan.ph/track"
                 target="_blank"
             />
@@ -68,7 +69,7 @@ const items = computed<NavigationMenuItem[]>(() => [
 			<UNavigationMenu 
 				:items="items"
 				:ui="{
-					link: 'text-abyan-white'
+					link: 'text-abyan-blue-50'
 				}"
 				orientation="vertical"
 				variant="link"
