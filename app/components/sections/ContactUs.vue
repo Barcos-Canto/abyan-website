@@ -17,7 +17,7 @@
         <template #features>
             <UPageCard
                 class="whitespace-pre-wrap"
-                title="Call ussss"
+                title="Call us"
                 icon="i-lucide-phone"
                 :ui="{
                     root: 'bg-abyan-blue-50',
