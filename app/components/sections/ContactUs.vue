@@ -44,6 +44,13 @@
                     leadingIcon:'text-abyan-blue-600'
                 }"
             />
-        </template>        
+        </template>   
+
+        <img
+            src="/images/legazpi-tower.webp"
+            class="w-full h-auto object-contain rounded-xl"
+            alt="Legazpi Tower 300"
+            loading="lazy"
+        />
     </UPageSection>
 </template>
