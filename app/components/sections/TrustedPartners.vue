@@ -10,6 +10,17 @@
             headline: 'flex justify-start text-abyan-blue-900',
         }"
     >
+    <div class="flex justify-center">
+        <a href="#contact-us" class="rounded-full group px-4 py-2 mt-8 text-xs text-center ring-1 ring-abyan-blue-200 bg-abyan-blue-950 hover:bg-abyan-blue-200">
+            <span class="text-abyan-blue-200 group-hover:text-abyan-blue-900">
+                Interested Working Together?
+            </span>
+            <span class="font-bold text-abyan-white group-hover:text-abyan-blue-950" > 
+                Reach Out!
+            </span>
+        </a>
+    </div>
+
     <template>
         <UMarquee :overlay="false">
             <!-- Different logos have different heights. Find future solution for uniform display -->
@@ -26,16 +37,5 @@
             <img src="/brands/toyota.webp" alt="Toyota Logo" class="w-full h-8 object-contain" loading="lazy"/>
         </UMarquee>
     </template>
-
-        <div class="flex justify-center animate-bounce">
-            <a href="#contact-us" class="rounded-full group px-4 py-2 mt-8 text-xs text-center ring-1 ring-abyan-blue-200 bg-abyan-blue-950 hover:bg-abyan-blue-200">
-                <span class="text-abyan-blue-200 group-hover:text-abyan-blue-900">
-                    Interested Working Together?
-                </span>
-                <span class="font-bold text-abyan-white group-hover:text-abyan-blue-950" > 
-                    Reach Out!
-                </span>
-            </a>
-        </div>
     </UPageSection>
 </template>
