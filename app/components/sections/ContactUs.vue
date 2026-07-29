@@ -48,7 +48,7 @@
 
         <img
             src="/images/legazpi-tower.webp"
-            class="w-full h-40 object-cover md:h-auto md:object-contain rounded-4xl"
+            class="w-full h-40 object-cover object-bottom md:h-80 lg:h-auto lg:object-contain rounded-4xl"
             alt="Legazpi Tower 300"
             loading="lazy"
         />
