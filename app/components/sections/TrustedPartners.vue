@@ -6,8 +6,8 @@
         :ui="{
             root: 'bg-abyan-white',
             container: 'py-12 sm:py-12 gap-4 sm:gap-4 lg:py-12',
-            title: 'flex justify-start mb-4 text-abyan-blue-950',
-            description: 'flex justify-start text-abyan-muted',
+            title: 'flex justify-start text-abyan-blue-950',
+            description: 'flex justify-start mt-2 mb-4  text-abyan-muted',
         }"
     >
     <div>
