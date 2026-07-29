@@ -47,7 +47,7 @@ const features = ref<PageFeatureProps[]>([
     >
 		<img 
 			src="/images/executives-group-photo-v2.webp"
-			class="w-full h-auto object-contain rounded-xl"
+			class="w-full h-40 object-cover object-center md:h-auto m:object-contain rounded-4xl"
 			alt="abyan-executives-group-photo"
 			loading="lazy"
 		/>
