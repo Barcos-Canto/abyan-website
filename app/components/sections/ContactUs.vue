@@ -11,16 +11,13 @@
             description: 'text-abyan-blue-200',
             headline: 'text-abyan-blue-200',
             container: 'sm:items-start lg:items-start py-12 sm:py-12 lg:py-12',
+            features:'grid-cols-2'
         }"
     >
-        <UPageGrid
-        :ui="{
-            base: 'lg:grid-cols-2'
-        }"
-        >
+        <template #features>
             <UPageCard
                 class="whitespace-pre-wrap"
-                title="Call us"
+                title="Call ussss"
                 icon="i-lucide-phone"
                 :ui="{
                     root: 'bg-abyan-blue-50',
@@ -47,6 +44,6 @@
                     leadingIcon:'text-abyan-blue-600'
                 }"
             />
-        </UPageGrid>
+        </template>        
     </UPageSection>
 </template>
