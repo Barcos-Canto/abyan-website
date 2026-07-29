@@ -74,7 +74,7 @@ const features = ref<PageFeatureProps[]>([
     >
 		<img
 			src="/images/award-group-photo.webp"
-			class="w-full aspect-square object-cover rounded-xl"
+			class="w-full h-50 object-cover object-center md:h-80 lg:h-auto lg:aspect-square rounded-4xl"
 			alt="abyan-executives-awarding-photo"
 			loading="lazy"
 		/>
