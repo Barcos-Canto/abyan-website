@@ -1,16 +1,16 @@
 <template>
     <UPageSection
         id="partners"
-        headline="Trusted since 2015 — and still growing with the partners who believed in us first"
         title="Trusted By Known Brands"
+        description="Trusted since 2015 — and still growing with the partners who believed in us first"
         :ui="{
             root: 'bg-abyan-white',
             container: 'py-12 sm:py-12 gap-4 sm:gap-4 lg:py-12',
             title: 'flex justify-start mb-4 text-abyan-blue-950',
-            headline: 'flex justify-start text-abyan-blue-900',
+            description: 'flex justify-start text-abyan-muted',
         }"
     >
-    <div class="flex justify-center">
+    <div>
         <a href="#contact-us" class="rounded-full group px-4 py-2 mt-8 text-xs text-center ring-1 ring-abyan-blue-200 bg-abyan-blue-950 hover:bg-abyan-blue-200">
             <span class="text-abyan-blue-200 group-hover:text-abyan-blue-900">
                 Interested Working Together?
