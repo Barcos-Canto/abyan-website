@@ -57,7 +57,7 @@ const features = ref<PageFeatureProps[]>([
 					container: 'p-0 sm:p-0'
 				}"
 			>
-				<img src="/images/group-photo-men-v2.webp" class="w-full aspect-video rounded-xl object-cover">
+				<img src="/images/group-photo-men-v2.webp" class="w-full h-26 md:h-40 lg:h-auto object-cover rounded-xl">
 			</UPageCard>
 
 			<UPageCard 
@@ -67,7 +67,7 @@ const features = ref<PageFeatureProps[]>([
 					container: 'p-0 sm:p-0'
 				}"
 			>
-				<img src="/images/man-operating-farm-equipment.webp" class="w-full aspect-square rounded-xl object-cover">
+				<img src="/images/man-operating-farm-equipment.webp" class="w-full h-26 md:h-40 lg:h-auto object-cover rounded-xl">
 			</UPageCard>
 
 			<UPageCard 
@@ -77,7 +77,7 @@ const features = ref<PageFeatureProps[]>([
 					container: 'p-0 sm:p-0'
 				}"
 			>
-				<img src="/images/group-photo-women-v1.webp" class="w-full aspect-square rounded-xl object-cover">
+				<img src="/images/group-photo-women-v1.webp" class="w-full h-26 md:h-40 lg:h-auto object-cover rounded-xl">
 			</UPageCard>
 
 			<UPageCard 
@@ -87,7 +87,7 @@ const features = ref<PageFeatureProps[]>([
 					container: 'p-0 sm:p-0'
 				}"
 			>
-				<img src="/images/group-photo-men-v1.webp" class="w-full aspect-video rounded-xl object-cover">
+				<img src="/images/group-photo-men-v1.webp" class="w-full h-26 md:h-40 lg:h-auto object-cover rounded-xl">
 			</UPageCard>
 		</UPageGrid>
     </UPageSection>
