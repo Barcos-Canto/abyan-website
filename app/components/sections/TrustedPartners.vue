@@ -10,20 +10,23 @@
             headline: 'flex justify-start text-abyan-blue-900',
         }"
     >
-        <div class="rounded-b-lg shadow-abyan-blue-900/10 shadow-lg mx-auto grid max-w-xl items-center gap-x-8 gap-y-8 pb-4 grid-cols-2 md:grid-cols-5 md:mx-0 md:max-w-none">
-            <img width="180" height="60" src="/brands/dominos-pizza.webp" alt="Dominos Pizza Logo" class="max-h-12 w-full object-contain" loading="lazy"/>
-            <img width="180" height="60" src="/brands/mcdo.webp" alt="Mcdo Logo" class="max-h-12 w-full object-contain" loading="lazy"/>
-            <img width="180" height="60" src="/brands/san-miguel.webp" alt="San Miguel Corporation Logo" class="max-h-12 w-full object-cover" loading="lazy"/>
-            <img width="180" height="60" src="/brands/UCC.webp" alt="UCC Logo" class="max-h-12 w-full object-contain" loading="lazy"/>
-            <img width="180" height="60" src="/brands/anchor-land.webp" alt="Anchor Land Holdings Logo" class="max-h-12 w-full object-cover" loading="lazy"/>
-            <img width="180" height="60" src="/brands/megaworld.webp" alt="Megaworld Logo" class="max-h-12 w-full object-cover" loading="lazy"/>
+
+    <template>
+        <UMarquee :overlay="false">
+            <img src="/brands/dominos-pizza.webp" alt="Dominos Pizza Logo" class="w-full h-12 object-contain" loading="lazy"/>
+            <img src="/brands/mcdo.webp" alt="Mcdo Logo" class="w-full h-14 object-cover" loading="lazy"/>
+            <img src="/brands/san-miguel.webp" alt="San Miguel Corporation Logo" class="w-full h-36 object-contain" loading="lazy"/>
+            <img src="/brands/UCC.webp" alt="UCC Logo" class="w-full h-12 object-contain" loading="lazy"/>
+            <img src="/brands/anchor-land.webp" alt="Anchor Land Holdings Logo" class="w-full h-8 object-cover" loading="lazy"/>
+            <img src="/brands/megaworld.webp" alt="Megaworld Logo" class="w-full h-20 object-contain" loading="lazy"/>
 
             <!-- Nuxt HATES honda. long story short, do not put honda.webp nor anything honda related into this section -->
-            <img width="180" height="60" src="/brands/hyundai.webp" alt="Hyundai Logo" class="max-h-12 w-full object-contain" loading="lazy"/>
-            <img width="180" height="60" src="/brands/mitsubishi.webp" alt="Mitsubishi Logo" class="max-h-12 w-full object-contain" loading="lazy"/>
-            <img width="180" height="60" src="/brands/suzuki.webp" alt="Suzuki Logo" class="max-h-12 w-full object-contain" loading="lazy"/>
-            <img width="180" height="60" src="/brands/toyota.webp" alt="Toyota Logo" class="max-h-12 w-full object-contain" loading="lazy"/>
-        </div>
+            <img src="/brands/hyundai.webp" alt="Hyundai Logo" class="w-full h-8 object-contain" loading="lazy"/>
+            <img src="/brands/mitsubishi.webp" alt="Mitsubishi Logo" class="w-full h-12 object-contain" loading="lazy"/>
+            <img src="/brands/suzuki.webp" alt="Suzuki Logo" class="w-full h-8 object-contain" loading="lazy"/>
+            <img src="/brands/toyota.webp" alt="Toyota Logo" class="w-full h-8 object-contain" loading="lazy"/>
+        </UMarquee>
+    </template>
 
         <div class="flex justify-center animate-bounce">
             <a href="#contact-us" class="rounded-full group px-4 py-2 mt-8 text-xs text-center ring-1 ring-abyan-blue-200 bg-abyan-blue-950 hover:bg-abyan-blue-200">
