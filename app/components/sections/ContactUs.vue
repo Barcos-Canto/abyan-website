@@ -10,7 +10,7 @@
             title: 'text-abyan-white',
             description: 'text-abyan-blue-200',
             headline: 'text-abyan-blue-200',
-            container: 'sm:items-start lg:items-start py-12 sm:py-12 lg:py-12',
+            container: 'sm:items-start lg:items-start py-12 sm:py-24 lg:py-24',
             features:'grid-cols-2'
         }"
     >

@@ -6,7 +6,7 @@
         orientation="horizontal"
         :ui="{
             root: 'bg-abyan-blue-950',
-            container: 'py-8 sm:py-8 lg:py-8 gap-8 sm:gap-y-8',
+            container: 'py-12 sm:py-24 lg:py-24 gap-8 sm:gap-y-8',
             title: 'text-abyan-white',
             description: 'text-abyan-blue-200',
         }"

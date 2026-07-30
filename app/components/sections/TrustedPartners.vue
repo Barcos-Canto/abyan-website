@@ -5,7 +5,7 @@
         description="Trusted since 2015 — and still growing with the partners who believed in us first"
         :ui="{
             root: 'bg-abyan-white',
-            container: 'py-12 sm:py-12 gap-4 sm:gap-4 lg:py-12',
+            container: 'py-12 sm:py-24 lg:py-24 gap-4 sm:gap-4',
             title: 'flex justify-start text-abyan-blue-950',
             description: 'flex justify-start mt-2 mb-4  text-abyan-muted',
         }"

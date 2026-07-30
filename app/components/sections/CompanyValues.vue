@@ -42,7 +42,7 @@ const features = ref<PageFeatureProps[]>([
         reverse
         :features="features"
         :ui="{
-            container: 'lg:items-start pt-6 sm:pt-6 lg:pt-6 pb-12 sm:pb-12 lg:pb-12'
+            container: 'lg:items-start pt-6 sm:pt-6 lg:pt-6 pb-12 sm:pb-24 lg:pb-24'
         }"
     >
 		<img 
