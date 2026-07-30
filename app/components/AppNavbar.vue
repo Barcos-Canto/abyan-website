@@ -55,6 +55,14 @@ const items = computed<NavigationMenuItem[]>(() => [
 
         <template #right>
             <UButton
+                label="Apply"
+				icon="i-lucide-package-search"
+				size="lg"
+                class="rounded-full border font-bold bg-abyan-blue-950 border-abyan-blue-50 text-abyan-blue-50 hover:bg-abyan-blue-50 hover:text-abyan-blue-950"
+                to=""
+                target="_blank"
+            />
+            <UButton
                 label="Tracking"
 				icon="i-lucide-package-search"
 				size="lg"
