@@ -1,7 +1,3 @@
 <template>
-    <PageSection
-        title="Careers"
-    >
-        
-    </PageSection>
+    <SectionsCareers />
 </template>
