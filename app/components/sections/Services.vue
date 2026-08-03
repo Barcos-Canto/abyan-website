@@ -46,7 +46,7 @@ const features = ref<PageFeatureProps[]>([
             title: 'text-abyan-white',
             description: 'text-abyan-blue-200',
             headline: 'text-abyan-blue-200',
-            container: 'py-12 sm:py-12 lg:py-12',
+            container: 'py-12 sm:py-24 lg:py-24',
         }"
     >
 		<UPageGrid class="grid-cols-2 gap-2">
