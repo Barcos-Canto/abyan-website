@@ -4,5 +4,13 @@ export default defineNuxtConfig({
 				devtools: { enabled: true },
 				modules: ['@nuxt/ui', '@nuxt/image', '@nuxtjs/supabase'],
 				css: ['~/assets/css/main.css'],
-				ui: {colorMode: false}
+				ui: {colorMode: false},
+				supabase: {
+					redirect: false,
+					redirectOptions: {
+						login: '/login',
+						callback: '/confirm',
+						exclude: ['/*']
+					}
+				}
 })
