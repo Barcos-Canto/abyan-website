@@ -12,5 +12,11 @@ export default defineNuxtConfig({
 						callback: '/confirm',
 						exclude: ['/*']
 					}
+				},
+				runtimeConfig: {
+					public: {
+						sheetApiUrl: '',
+						sheetApiKey: ''
+					}
 				}
 })
