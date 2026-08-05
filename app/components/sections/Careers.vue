@@ -1,17 +1,34 @@
 <script setup lang="ts">
-    const state = reactive({
-        name: '',
-        contactNo: ''
-    })
+const supabase = useSupabaseClient();
 
-    const toast = useToast()
+const state = reactive({
+    instrument: ''
+})
 
-    function onSubmit (){
-        console.log(state)
+const toast = useToast()
 
-        // instead of immediately, only after try/catch
+async function onSubmit (){
+    console.log(state)
+
+    const { error } = await supabase
+        .from('instruments')
+        .insert({ name: state.instrument })
+
+    if (error) {
+        console.log(error)
+        toast.add({title: 'Fail', description: 'Error' + error, color: 'error'})
+        return
+    } else {
         toast.add({title: 'Sent', description: 'Submission Successful', color: 'success'})
     }
+}
+
+const config = useRuntimeConfig()
+const {data, error} = await useFetch(config.public.sheetApiUrl, 
+{ params: { key: config.public.sheetApiKey}, server: false} )
+
+console.log('data:', JSON.stringify(data.value, null, 2))
+console.log('error:', error.value)
 </script>
 
 <template>
@@ -26,47 +43,17 @@
         <template #description>
             <UBadge color="warning" sie="xl">! This feature is temporarily <span class="font-bold">DISABLED</span></UBadge>
         </template>
-        <UForm 
-            :state="state"
-            @submit="onSubmit"
-        >
-            <UFormField
-                label="Name"
-                class="my-4"
-                required
-            >
-                <UInput v-model="state.name"/>
+
+        <UForm :state="state" @submit="onSubmit">
+            <UFormField label="New Instrument" name="instrument">
+                <UInput v-model="state.instrument" />
             </UFormField>
 
-            <UFormField
-                label="Contact No."
-                description="Make sure you use your active number"
-                type="number"
-                class="my-4"
-                required
-            >
-                <UInput v-model="state.contactNo"/>
-            </UFormField>     
-
-            <UFormField class="my-4">
-                <UFileUpload
-                    :dropzone="true"
-                    :interactive="true"
-                    required
-                    highlight
-                    type="file"
-                    accept="application/pdf"
-                    label="Upload Your Resume"
-                    description="PDF (max 2MB)"
-                    icon="i-lucide-file-text"
-                    color="primary"
-                    size="xl"
-                />
-            </UFormField>
-
-            <UButton class="my-4" type="submit">
-                Submit
-            </UButton>
+            <UButton 
+                label="Add Instrument"
+                color="primary"
+                type="submit"
+            />
         </UForm>
     </UPageSection>
 </template>
